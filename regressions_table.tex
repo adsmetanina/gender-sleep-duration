@@ -1,0 +1,44 @@
+\begin{table}[htbp]\centering
+\caption{OLS and 2SLS Estimates of the Effects on Sleep Duration}
+\begin{tabular}{l*{4}{D{.}{.}{-1}}}
+\toprule
+                        &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                        &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{2SLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{2SLS}\\
+\midrule
+Age                     &      -1.342&      -2.175&      -1.323&      -2.286\\
+                        &     (0.453)&     (0.939)&     (0.453)&     (0.922)\\
+\addlinespace
+Age squared             &       0.005&       0.013&       0.005&       0.014\\
+                        &     (0.005)&     (0.009)&     (0.005)&     (0.009)\\
+\addlinespace
+Female                  &       6.483&      13.483&     -23.904&     -10.222\\
+                        &     (1.225)&     (7.001)&     (4.745)&    (12.337)\\
+\addlinespace
+Weekly earnings         &      -0.002&       0.016&      -0.002&       0.018\\
+                        &     (0.001)&     (0.017)&     (0.001)&     (0.017)\\
+\addlinespace
+Weekly work hours       &      -0.926&      -1.444&      -1.368&      -1.884\\
+                        &     (0.054)&     (0.513)&     (0.079)&     (0.435)\\
+\addlinespace
+Is parent               &     -14.292&     -15.927&     -11.850&     -14.230\\
+                        &     (1.318)&     (2.088)&     (1.775)&     (2.672)\\
+\addlinespace
+Partner's weekly earnings&      -0.001&      -0.009&      -0.001&      -0.010\\
+                        &     (0.001)&     (0.008)&     (0.001)&     (0.008)\\
+\addlinespace
+Partner's weekly work hours&      -0.194&       0.049&      -0.183&       0.094\\
+                        &     (0.055)&     (0.245)&     (0.055)&     (0.237)\\
+\addlinespace
+Female × Weekly work hours&            &            &       0.773&       0.629\\
+                        &            &            &     (0.103)&     (0.159)\\
+\addlinespace
+Female × Is Parent      &            &            &      -3.332&      -2.633\\
+                        &            &            &     (2.280)&     (2.381)\\
+\midrule
+$R^2$                   &       0.019&           .&       0.020&           .\\
+$N$                     &      45,955&      45,955&      45,955&      45,955\\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Notes: This table reports the results of the OLS and 2SLS regressions estimating sleep duration, measured in minutes per 24-hour period. The sample consists of 45,955 respondents. Each estimation includes controls for age, respondent's weekly earnings and weekly work hours, marital and parental status, and partner's weekly earnings and weekly work hours. The 2SLS regressions use partner's weekly earnings as an instrument for respondents' weekly earnings. The interaction terms are 'Female × Work hours' and 'Female × Is parent.' Parentheses show standard errors. All values reflect three decimal places.}\\
+\multicolumn{5}{l}{\footnotesize Source: American Time Use Survey data, 2003-2023.}\\
+\end{tabular}
+\end{table}
