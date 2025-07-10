@@ -9,6 +9,9 @@ This project analyzes how gender, employment, and household composition influenc
 | `Project_DataPreparationa.do`            | Loads and cleans ATUS data; creates final analysis sample                |
 | `Project_BasicStats.do`                  | Generates descriptive statistics and summary tables                      |
 | `Project_Estimates.do`                   | Performs OLS and 2SLS regressions, including gender interaction effects  |
+| `fig_avgsleep.pdf`                       | Visual comparison of sleep duration by gender                            |
+| `summary_statistics.tex`                 | LaTeX table of summary statistics                                        |
+| `regressions_table.do`                   | LaTeX table of OLS and 2SLS estimates                                    |
 
 ## Objective
 
